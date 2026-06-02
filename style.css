@@ -1,0 +1,44 @@
+.body {
+  --radius: 20px;
+  --color: red;
+  --x: 0px;
+  --y: 0px;
+  width: calc(var(--radius) * 2);
+  height: calc(var(--radius) * 2);
+  background-color: var(--color);
+  border-radius: 50%;
+  position: absolute;
+  left: calc(var(--x) - var(--radius));
+  top: calc(var(--y) - var(--radius));
+  cursor: pointer;
+}
+
+body {
+  color: white;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.c, .cc {
+  width: fit-content;
+  height: fit-content;
+  user-select: none;
+  position: relative;
+  z-index: 2;
+}
+
+.c {
+  cursor: pointer;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #000020;
+  border: 3px solid #000030;
+}
+
+.c:hover {
+  background-color: #000030;
+  border: 3px solid #000040;
+}
