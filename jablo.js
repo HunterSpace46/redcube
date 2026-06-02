@@ -141,7 +141,7 @@ export class Meter extends ElementClass {
   constructor (element, info = {}, segments = null) {
     super(element, info);
     this.segments = segments ?? this.getContents(".m-seg");
-    this.segments = Array.from(this.segments).map(e, i => new MSeg(e, i, this));
+    this.segments = Array.from(this.segments).map((e, i) => new MSeg(e, i, this));
   }
 }
 
