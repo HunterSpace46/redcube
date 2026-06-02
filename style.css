@@ -34,11 +34,11 @@ body {
   cursor: pointer;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #00002A;
-  border: 3px solid #00004A;
+  background-color: #1A1A2E;
+  border: 3px solid #1C1C30;
 }
 
 .c:hover {
-  background-color: #000050;
-  border: 3px solid #000070;
+  background-color: #2A2A4E;
+  border: 3px solid #2C2C50;
 }
