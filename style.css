@@ -22,6 +22,16 @@ body {
   overflow-x: hidden;
 }
 
+#explanation {
+  width: fit-content;
+  height: fit-content;
+  user-select: none;
+  pointer-events: none;
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
 .c, .cc {
   width: fit-content;
   height: fit-content;
